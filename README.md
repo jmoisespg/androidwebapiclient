@@ -105,6 +105,7 @@ client.post("/home/post/", imageBytes, contentType, new HttpAsyncCallback<byte[]
 ```
 ##Get for another content types
 The same applies when you want to request a download file or another content type from webapi
+```
 HttpClient client = new HttpClient(context);
 //set the base address of your WebApi
 client.setBaseAddress(new URL("http://10.0.2.2:4005"));
